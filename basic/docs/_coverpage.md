@@ -6,4 +6,4 @@
 
 [开始使用](#关于-fantastic-admin)
 [仓库地址](https://gitee.com/hooray/fantastic-admin)
-[访问专业版](https://gitee.com/hooray/fantastic-admin-pro)
+[访问专业版](https://hooray.gitee.io/fantastic-admin/pro)

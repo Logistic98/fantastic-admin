@@ -4,17 +4,6 @@
 
 除了 Element UI 提供的组件外，模版另外封装的一些常用的全局组件。
 
-## AmapMarker 高地地图点坐标
-
-### Props
-
-| 参数   | 说明     | 类型            | 可选值 | 默认值 |
-| :----- | :------- | :-------------- | :----- | :----- |
-| v      | 版本号   | string          | -      | 1.4.15 |
-| appkey | 应用key  | string          | -      | -      |
-| height | 展示高度 | number / string | -      | 500    |
-| lnglat | 经纬度   | array           | -      | []     |
-
 ## BatchActionBar 批量操作栏
 
 ### Props
