@@ -22,7 +22,3 @@
 给个小 ❤️ 吧~
 
 [![star](https://gitee.com/hooray/fantastic-admin/badge/star.svg?theme=dark)](https://gitee.com/hooray/fantastic-admin/stargazers)
-
-## 特别感谢
-
-Shout out to [vue-element-admin](https://github.com/PanJiaChen/vue-element-admin), Respect!
