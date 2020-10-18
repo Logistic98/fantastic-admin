@@ -1,0 +1,27 @@
+---
+home: true
+heroImage: /logo.png
+heroText: Fantastic-admin
+tagline: 一款开箱即用的 Vue 中后台管理系统框架
+actionText: 开始 →
+actionLink: /guide/
+lang: zh-CN
+features:
+- title: 布局/主题
+  details: 布局与主题组合搭配，可实现共计 60 种不同风格的界面，另外主题还可根据提供的规则进行自定义扩展
+- title: 路由导航
+  details: 路由配置自动生成导航栏，轻松实现导航嵌套、外链、标记、权限等功能
+- title: 权限验证
+  details: 提供鉴权组件、鉴权指令和鉴权函数，真正实现各种场景下的权限验证
+- title: 多级页面缓存
+  details: 支持无限层级的页面缓存，应对各种需求场景，并提供简单易懂的 API 方便开发者快速集成
+- title: 全局组件
+  details: 提供常用场景下的基础组件与扩展组件，同时还提供组件快速生成工具，自动注册全局组件，提高开发效率
+- title: 业务应用页面
+  details: 通过真实场景及真实需求，沉淀出数十个业务应用的静态页面，方便开发人员直接使用，后续将长期更新
+- title: 更多...
+  details: 更多功能特点请查阅本文档，或演示地址
+footer: Copyright © Fantastic-admin
+---
+
+&nbsp;

@@ -1,0 +1,15 @@
+{
+  "name": "fantastic-admin-docs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://gitee.com/hooray/fantastic-admin.git",
+  "author": "hooray <304327508@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vuepress dev docs-source",
+    "docs:build": "vuepress build docs-source"
+  },
+  "devDependencies": {
+    "vuepress": "^1.7.1"
+  }
+}
