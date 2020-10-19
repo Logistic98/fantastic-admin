@@ -12,6 +12,4 @@
 
 ## 文档
 
-[基础版](https://hooray.gitee.io/fantastic-admin/basic/docs)
-
-专业版稍后提供
+[文档](https://hooray.gitee.io/fantastic-admin/docs)

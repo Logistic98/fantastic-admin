@@ -1,9 +1,13 @@
 module.exports = {
-	title: 'Fantastic-admin 开发文档',
+	title: 'Fantastic-admin 官网',
 	description: '一款开箱即用的 Vue 中后台管理系统框架',
 	base: '/docs/',
 	dest: 'docs',
 	plugins: ['@vuepress/medium-zoom'],
+	head: [
+		['link', { rel: 'favicon', type: "image/x-icon", href: `./favicon.ico` }],
+		['keywords', { content: 'fantastic-admin,后台系统,管理后台,后台模版,vue后台,vue-admin,vue-element-admin,vue-admin-template' }]
+	],
 	themeConfig: {
 		search: false,
 		displayAllHeaders: false,
@@ -40,12 +44,12 @@ module.exports = {
 		],
 		sidebar: {
 			'/guide/': [
+				'',
 				{
 					title: '指南',
 					collapsable: false,
 					children: [
-						'description',
-						'',
+						'start',
 						'configure',
 						'layout-and-theme',
 						'global-resources',

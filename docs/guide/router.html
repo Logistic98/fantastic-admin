@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>路由 | Fantastic-admin 开发文档</title>
+    <meta name="generator" content="VuePress 1.7.1">
+    <link rel="favicon" type="image/x-icon" href="./favicon.ico">
+    <keywords content="fantastic-admin,后台系统,管理后台,后台模版,vue后台,vue-admin,vue-element-admin,vue-admin-template"></keywords>
+    <meta name="description" content="一款开箱即用的 Vue 中后台管理系统框架">
+    
+    <link rel="preload" href="/docs/assets/css/0.styles.0e636247.css" as="style"><link rel="preload" href="/docs/assets/js/app.c602b296.js" as="script"><link rel="preload" href="/docs/assets/js/2.690843bd.js" as="script"><link rel="preload" href="/docs/assets/js/26.d1da7292.js" as="script"><link rel="prefetch" href="/docs/assets/js/10.0f921edd.js"><link rel="prefetch" href="/docs/assets/js/11.19890fb0.js"><link rel="prefetch" href="/docs/assets/js/12.b5d9ba0a.js"><link rel="prefetch" href="/docs/assets/js/13.7283f5db.js"><link rel="prefetch" href="/docs/assets/js/14.9b47648d.js"><link rel="prefetch" href="/docs/assets/js/15.8dfb5bb8.js"><link rel="prefetch" href="/docs/assets/js/16.ae9e925e.js"><link rel="prefetch" href="/docs/assets/js/17.1be76e72.js"><link rel="prefetch" href="/docs/assets/js/18.fc579614.js"><link rel="prefetch" href="/docs/assets/js/19.c333d582.js"><link rel="prefetch" href="/docs/assets/js/20.d20dd30a.js"><link rel="prefetch" href="/docs/assets/js/21.1b965fad.js"><link rel="prefetch" href="/docs/assets/js/22.3db1be11.js"><link rel="prefetch" href="/docs/assets/js/23.2a468904.js"><link rel="prefetch" href="/docs/assets/js/24.1f218757.js"><link rel="prefetch" href="/docs/assets/js/25.1ec7e5ce.js"><link rel="prefetch" href="/docs/assets/js/27.eedcfc35.js"><link rel="prefetch" href="/docs/assets/js/28.fd54e765.js"><link rel="prefetch" href="/docs/assets/js/3.c61b945b.js"><link rel="prefetch" href="/docs/assets/js/4.3313cb6c.js"><link rel="prefetch" href="/docs/assets/js/5.14823905.js"><link rel="prefetch" href="/docs/assets/js/6.ffe6f60a.js"><link rel="prefetch" href="/docs/assets/js/7.a53f07b7.js"><link rel="prefetch" href="/docs/assets/js/8.beb6d572.js"><link rel="prefetch" href="/docs/assets/js/9.fbe3cbec.js">
+    <link rel="stylesheet" href="/docs/assets/css/0.styles.0e636247.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/docs/" class="home-link router-link-active"><!----> <span class="site-name">Fantastic-admin 开发文档</span></a> <div class="links"><!----> <nav class="nav-links can-hide"><div class="nav-item"><a href="/docs/guide/" class="nav-link router-link-active">
+  指南
+</a></div><div class="nav-item"><a href="/docs/components/" class="nav-link">
+  组件
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="演示地址" class="dropdown-title"><span class="title">演示地址</span> <span class="arrow down"></span></button> <button type="button" aria-label="演示地址" class="mobile-dropdown-title"><span class="title">演示地址</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://hooray.gitee.io/fantastic-admin/basic" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  基础版
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://hooray.gitee.io/fantastic-admin/pro" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  专业版
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div><div class="nav-item"><a href="https://gitee.com/hooray/fantastic-admin" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  源码下载
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div><div class="nav-item"><a href="https://gitee.com/hooray/fantastic-admin" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  付费购买
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/docs/guide/" class="nav-link router-link-active">
+  指南
+</a></div><div class="nav-item"><a href="/docs/components/" class="nav-link">
+  组件
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="演示地址" class="dropdown-title"><span class="title">演示地址</span> <span class="arrow down"></span></button> <button type="button" aria-label="演示地址" class="mobile-dropdown-title"><span class="title">演示地址</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://hooray.gitee.io/fantastic-admin/basic" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  基础版
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://hooray.gitee.io/fantastic-admin/pro" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  专业版
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div><div class="nav-item"><a href="https://gitee.com/hooray/fantastic-admin" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  源码下载
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div><div class="nav-item"><a href="https://gitee.com/hooray/fantastic-admin" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  付费购买
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>指南</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/docs/guide/description.html" class="sidebar-link">文档说明</a></li><li><a href="/docs/guide/" aria-current="page" class="sidebar-link">开始</a></li><li><a href="/docs/guide/configure.html" class="sidebar-link">配置</a></li><li><a href="/docs/guide/layout-and-theme.html" class="sidebar-link">布局/主题</a></li><li><a href="/docs/guide/global-resources.html" class="sidebar-link">全局资源</a></li><li><a href="/docs/guide/axios.html" class="sidebar-link">Axios 拦截器</a></li><li><a href="/docs/guide/component.html" class="sidebar-link">组件</a></li><li><a href="/docs/guide/vuex.html" class="sidebar-link">Vuex</a></li><li><a href="/docs/guide/router.html" aria-current="page" class="active sidebar-link">路由</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/docs/guide/router.html#配置项" class="sidebar-link">配置项</a></li><li class="sidebar-sub-header"><a href="/docs/guide/router.html#扩展" class="sidebar-link">扩展</a></li><li class="sidebar-sub-header"><a href="/docs/guide/router.html#嵌套路由" class="sidebar-link">嵌套路由</a></li></ul></li><li><a href="/docs/guide/permission.html" class="sidebar-link">权限验证</a></li><li><a href="/docs/guide/keep-alive.html" class="sidebar-link">多级页面缓存</a></li><li><a href="/docs/guide/cdn.html" class="sidebar-link">CDN 支持</a></li><li><a href="/docs/guide/coding-standard.html" class="sidebar-link">代码规范</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>专业版</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/docs/guide/pro/layout-and-theme.html" class="sidebar-link">布局/主题</a></li><li><a href="/docs/guide/pro/router.html" class="sidebar-link">路由</a></li><li><a href="/docs/guide/pro/plop.html" class="sidebar-link">快速生成文件</a></li><li><a href="/docs/guide/pro/module.html" class="sidebar-link">标准模块</a></li><li><a href="/docs/guide/pro/position-fixed.html" class="sidebar-link">position:fixed 组件实现父级定位</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="路由"><a href="#路由" class="header-anchor">#</a> 路由</h1> <h2 id="配置项"><a href="#配置项" class="header-anchor">#</a> 配置项</h2> <p>框架的核心是通过路由自动生成对应导航，所以除了路由的基本配置，还需要了解框架提供了哪些配置项：</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token comment">// 所有的导航配置项均放在路由的 meta 对象中</span>
+meta<span class="token operator">:</span> <span class="token punctuation">{</span>
+    <span class="token comment">// 该路由在侧边栏导航和面包屑导航中展示的标题</span>
+    title<span class="token operator">:</span> <span class="token string">'新闻列表'</span><span class="token punctuation">,</span>
+    <span class="token comment">// 侧边栏导航中显示的图标，图标使用 &lt;svg-icon /&gt; 组件展示</span>
+    icon<span class="token operator">:</span> <span class="token string">'news'</span><span class="token punctuation">,</span>
+    <span class="token comment">// 该路由进入的权限，支持多个权限叠加，只要满足一个，即可进入</span>
+    <span class="token comment">// 如果用户没有该权限，则该路由不会在侧边栏导航中展示</span>
+    auth<span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">'news.browse'</span><span class="token punctuation">,</span> <span class="token string">'news.edit'</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+    <span class="token comment">// 该路由是否在侧边栏导航中展示，如编辑页面 /edit/:id ，默认为 true</span>
+    sidebar<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    <span class="token comment">// 该路由是否在面包屑导航中展示，默认为 true</span>
+    breadcrumb<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+    <span class="token comment">// 当路由设置了该属性，则会高亮相对应的侧边栏，一般会搭配 sidebar: false 一起使用</span>
+    <span class="token comment">// 例如从新闻列表进入新闻详情页，由于新闻详情页路由不在侧边栏导航中展示，这时你如果想高亮新闻列表的路由，就可以进行如下设置</span>
+    activeMenu<span class="token operator">:</span> <span class="token string">'/news/list'</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>示例：</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">import</span> Layout <span class="token keyword">from</span> <span class="token string">'@/layout'</span>
+
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span>
+    path<span class="token operator">:</span> <span class="token string">'/banner'</span><span class="token punctuation">,</span>
+    component<span class="token operator">:</span> Layout<span class="token punctuation">,</span>
+    redirect<span class="token operator">:</span> <span class="token string">'/banner/list'</span><span class="token punctuation">,</span>
+    name<span class="token operator">:</span> <span class="token string">'banner'</span><span class="token punctuation">,</span>
+    meta<span class="token operator">:</span> <span class="token punctuation">{</span>
+        title<span class="token operator">:</span> <span class="token string">'Banner 管理'</span><span class="token punctuation">,</span>
+        icon<span class="token operator">:</span> <span class="token string">'banner'</span><span class="token punctuation">,</span>
+        auth<span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">'banner.browse'</span><span class="token punctuation">]</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    children<span class="token operator">:</span> <span class="token punctuation">[</span>
+        <span class="token punctuation">{</span>
+            path<span class="token operator">:</span> <span class="token string">'detail'</span><span class="token punctuation">,</span>
+            name<span class="token operator">:</span> <span class="token string">'bannerCreate'</span><span class="token punctuation">,</span>
+            <span class="token function-variable function">component</span><span class="token operator">:</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token keyword">import</span><span class="token punctuation">(</span><span class="token comment">/* webpackChunkName: 'banner' */</span> <span class="token string">'@/views/banner/detail'</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+            meta<span class="token operator">:</span> <span class="token punctuation">{</span>
+                title<span class="token operator">:</span> <span class="token string">'新增 Banner'</span><span class="token punctuation">,</span>
+                auth<span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">'banner.create'</span><span class="token punctuation">]</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">{</span>
+            path<span class="token operator">:</span> <span class="token string">'list'</span><span class="token punctuation">,</span>
+            name<span class="token operator">:</span> <span class="token string">'bannerList'</span><span class="token punctuation">,</span>
+            <span class="token function-variable function">component</span><span class="token operator">:</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token keyword">import</span><span class="token punctuation">(</span><span class="token comment">/* webpackChunkName: 'banner' */</span> <span class="token string">'@/views/banner/list'</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+            meta<span class="token operator">:</span> <span class="token punctuation">{</span>
+                title<span class="token operator">:</span> <span class="token string">'Banner 列表'</span><span class="token punctuation">,</span>
+                auth<span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">'banner.browse'</span><span class="token punctuation">]</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">{</span>
+            path<span class="token operator">:</span> <span class="token string">'detail/:id'</span><span class="token punctuation">,</span>
+            name<span class="token operator">:</span> <span class="token string">'bannerEdit'</span><span class="token punctuation">,</span>
+            <span class="token function-variable function">component</span><span class="token operator">:</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token keyword">import</span><span class="token punctuation">(</span><span class="token comment">/* webpackChunkName: 'banner' */</span> <span class="token string">'@/views/banner/detail'</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+            meta<span class="token operator">:</span> <span class="token punctuation">{</span>
+                title<span class="token operator">:</span> <span class="token string">'编辑 Banner'</span><span class="token punctuation">,</span>
+                auth<span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">'banner.edit'</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+                sidebar<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+                activeMenu<span class="token operator">:</span> <span class="token string">'/banner/list'</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">]</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>展示效果如下：</p> <p><img src="/breadcrumb1.gif" alt=""></p> <h2 id="扩展"><a href="#扩展" class="header-anchor">#</a> 扩展</h2> <p>客户总是有自己的想法，例如我司就遇到了这样的需求，在不改变侧边栏导航结构的前提下，面包屑导航希望能变成这样：</p> <p><img src="/breadcrumb2.gif" alt=""></p> <p>其实根据图中的效果，可以确定路由需要有三层，剩下就是通过配置项去控制侧边栏导航和面包屑导航是否展示。</p> <div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">import</span> Layout <span class="token keyword">from</span> <span class="token string">'@/layout'</span>
+<span class="token keyword">import</span> KeepAliveLayout <span class="token keyword">from</span> <span class="token string">'@/layout/keepAlive'</span>
+
+<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span>
+    path<span class="token operator">:</span> <span class="token string">'/banner'</span><span class="token punctuation">,</span>
+    component<span class="token operator">:</span> Layout<span class="token punctuation">,</span>
+    redirect<span class="token operator">:</span> <span class="token string">'/banner/list'</span><span class="token punctuation">,</span>
+    name<span class="token operator">:</span> <span class="token string">'banner'</span><span class="token punctuation">,</span>
+    meta<span class="token operator">:</span> <span class="token punctuation">{</span>
+        title<span class="token operator">:</span> <span class="token string">'Banner 管理'</span><span class="token punctuation">,</span>
+        icon<span class="token operator">:</span> <span class="token string">'banner'</span><span class="token punctuation">,</span>
+        auth<span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">'banner.browse'</span><span class="token punctuation">]</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    children<span class="token operator">:</span> <span class="token punctuation">[</span>
+        <span class="token punctuation">{</span>
+            path<span class="token operator">:</span> <span class="token string">'detail'</span><span class="token punctuation">,</span>
+            redirect<span class="token operator">:</span> <span class="token string">'/banner/list/detail'</span><span class="token punctuation">,</span>
+            meta<span class="token operator">:</span> <span class="token punctuation">{</span>
+                title<span class="token operator">:</span> <span class="token string">'新增 Banner'</span><span class="token punctuation">,</span>
+                auth<span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">'banner.create'</span><span class="token punctuation">]</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span><span class="token punctuation">,</span>
+        <span class="token punctuation">{</span>
+            path<span class="token operator">:</span> <span class="token string">'list'</span><span class="token punctuation">,</span>
+            name<span class="token operator">:</span> <span class="token string">'bannerList'</span><span class="token punctuation">,</span>
+            component<span class="token operator">:</span> KeepAliveLayout<span class="token punctuation">,</span>
+            redirect<span class="token operator">:</span> <span class="token string">'/banner/list'</span><span class="token punctuation">,</span>
+            meta<span class="token operator">:</span> <span class="token punctuation">{</span>
+                title<span class="token operator">:</span> <span class="token string">'Banner 列表'</span><span class="token punctuation">,</span>
+                auth<span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">'banner.browse'</span><span class="token punctuation">]</span>
+            <span class="token punctuation">}</span><span class="token punctuation">,</span>
+            children<span class="token operator">:</span> <span class="token punctuation">[</span>
+                <span class="token punctuation">{</span>
+                    path<span class="token operator">:</span> <span class="token string">'detail'</span><span class="token punctuation">,</span>
+                    name<span class="token operator">:</span> <span class="token string">'bannerCreate'</span><span class="token punctuation">,</span>
+                    <span class="token function-variable function">component</span><span class="token operator">:</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token keyword">import</span><span class="token punctuation">(</span><span class="token comment">/* webpackChunkName: 'banner' */</span> <span class="token string">'@/views/banner/detail'</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+                    meta<span class="token operator">:</span> <span class="token punctuation">{</span>
+                        title<span class="token operator">:</span> <span class="token string">'新增 Banner'</span><span class="token punctuation">,</span>
+                        auth<span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">'banner.create'</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+                        sidebar<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+                        activeMenu<span class="token operator">:</span> <span class="token string">'/banner/detail'</span>
+                    <span class="token punctuation">}</span>
+                <span class="token punctuation">}</span><span class="token punctuation">,</span>
+                <span class="token punctuation">{</span>
+                    path<span class="token operator">:</span> <span class="token string">''</span><span class="token punctuation">,</span>
+                    name<span class="token operator">:</span> <span class="token string">'bannerList'</span><span class="token punctuation">,</span>
+                    <span class="token function-variable function">component</span><span class="token operator">:</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token keyword">import</span><span class="token punctuation">(</span><span class="token comment">/* webpackChunkName: 'banner' */</span> <span class="token string">'@/views/banner/list'</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+                    meta<span class="token operator">:</span> <span class="token punctuation">{</span>
+                        title<span class="token operator">:</span> <span class="token string">'Banner 列表'</span><span class="token punctuation">,</span>
+                        auth<span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">'banner.browse'</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+                        sidebar<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+                        breadcrumb<span class="token operator">:</span> <span class="token boolean">false</span>
+                    <span class="token punctuation">}</span>
+                <span class="token punctuation">}</span><span class="token punctuation">,</span>
+                <span class="token punctuation">{</span>
+                    path<span class="token operator">:</span> <span class="token string">'detail/:id'</span><span class="token punctuation">,</span>
+                    name<span class="token operator">:</span> <span class="token string">'bannerEdit'</span><span class="token punctuation">,</span>
+                    <span class="token function-variable function">component</span><span class="token operator">:</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token operator">=&gt;</span> <span class="token keyword">import</span><span class="token punctuation">(</span><span class="token comment">/* webpackChunkName: 'banner' */</span> <span class="token string">'@/views/banner/detail'</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+                    meta<span class="token operator">:</span> <span class="token punctuation">{</span>
+                        title<span class="token operator">:</span> <span class="token string">'编辑 Banner'</span><span class="token punctuation">,</span>
+                        auth<span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">'banner.edit'</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+                        sidebar<span class="token operator">:</span> <span class="token boolean">false</span><span class="token punctuation">,</span>
+                        activeMenu<span class="token operator">:</span> <span class="token string">'/banner/list'</span>
+                    <span class="token punctuation">}</span>
+                <span class="token punctuation">}</span>
+            <span class="token punctuation">]</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">]</span>
+<span class="token punctuation">}</span>
+</code></pre></div><blockquote><p>这个需求其实在学习 vue-element-admin 就想到过，也给作者提过 issue (<a href="https://github.com/PanJiaChen/vue-element-admin/issues/1426" target="_blank" rel="noopener noreferrer">#1426<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>)，不过作者并没给我更好的解决方案</p></blockquote> <h2 id="嵌套路由"><a href="#嵌套路由" class="header-anchor">#</a> 嵌套路由</h2> <p>上面的扩展例子里，引用了一个 <code>KeepAliveLayout</code> 组件，查看代码可以看到这是一个空白的 layout 页面。</p> <div class="language-html extra-class"><pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>transition</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>main<span class="token punctuation">&quot;</span></span> <span class="token attr-name">mode</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>out-in<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>keep-alive</span> <span class="token attr-name">:include</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>$store.state.keepAlive.list<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+                <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>RouterView</span> <span class="token punctuation">/&gt;</span></span>
+            <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>keep-alive</span><span class="token punctuation">&gt;</span></span>
+        <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>transition</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><p>为什么需要这个呢？因为嵌套路由生成出来的导航栏目也是嵌套结构的，但导航栏目里的模块页面一般是不需要嵌套的，所以除了顶级路由需要设置 <code>component: Layout</code> ，嵌套有 <code>children</code> 属性的子项路由，均可设置 <code>component: KeepAliveLayout</code> 。当然如果你的页面确实有嵌套展示的需求，可不按照这种方式操作。</p></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/docs/guide/vuex.html" class="prev">
+        Vuex
+      </a></span> <span class="next"><a href="/docs/guide/permission.html">
+        权限验证
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/docs/assets/js/app.c602b296.js" defer></script><script src="/docs/assets/js/2.690843bd.js" defer></script><script src="/docs/assets/js/26.d1da7292.js" defer></script>
+  </body>
+</html>
