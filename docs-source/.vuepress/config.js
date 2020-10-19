@@ -5,8 +5,15 @@ module.exports = {
 	dest: 'docs',
 	plugins: ['@vuepress/medium-zoom'],
 	head: [
-		['link', { rel: 'favicon', type: "image/x-icon", href: `./favicon.ico` }],
-		['keywords', { content: 'fantastic-admin,后台系统,管理后台,后台模版,vue后台,vue-admin,vue-element-admin,vue-admin-template' }]
+		['link', { rel: 'icon', href: `./favicon.ico` }],
+		['keywords', { content: 'fantastic-admin,后台系统,管理后台,后台模版,vue后台,vue-admin,vue-element-admin,vue-admin-template' }],
+		['script', {}, `var _hmt = _hmt || [];
+		(function() {
+			var hm = document.createElement("script");
+			hm.src = "https://hm.baidu.com/hm.js?ba0ee7b31f404b7dc10bfcd8bdc7183d";
+			var s = document.getElementsByTagName("script")[0];
+			s.parentNode.insertBefore(hm, s);
+		})();`]
 	],
 	themeConfig: {
 		search: false,
