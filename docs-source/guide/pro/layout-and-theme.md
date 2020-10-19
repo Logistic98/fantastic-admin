@@ -23,19 +23,19 @@ layout: 'adaption'
 
 **自适应**
 
-![](/layout_1.gif)
+![](/fantastic-admin/layout_1.gif)
 
 **自适应（有最小宽度）**
 
-![](/layout_2.gif)
+![](/fantastic-admin/layout_2.gif)
 
 **定宽居中**
 
-![](/layout_3.gif)
+![](/fantastic-admin/layout_3.gif)
 
 **定宽居中（有最大宽度）**
 
-![](/layout_4.gif)
+![](/fantastic-admin/layout_4.gif)
 
 将扩展的 4 套布局和基础版原有的 3 套布局进行组合搭配，可实现 12 套布局，如果再搭配默认提供的 5 款主题，**即可实现 60 种界面风格**。
 

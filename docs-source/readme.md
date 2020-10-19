@@ -32,7 +32,7 @@ footer: Copyright © Fantastic-admin
 
 <h2 align="center">预览图</h2>
 
-![](/preview1.png)
-![](/preview2.png)
-![](/preview3.png)
-![](/preview4.png)
+![](/fantastic-admin/preview1.png)
+![](/fantastic-admin/preview2.png)
+![](/fantastic-admin/preview3.png)
+![](/fantastic-admin/preview4.png)

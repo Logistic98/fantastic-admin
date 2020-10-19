@@ -14,7 +14,7 @@ lang: zh-CN
 
 项目默认显示**双侧边栏布局**，即区分主导航和次导航，展示效果如下：
 
-![](/basic-layout-default.png)
+![](/fantastic-admin/basic-layout-default.png)
 
 如果要调整为**单侧边栏布局**，则需要到 `./src/router/index.js` 路由配置文件里找到下面这段代码，并注释掉高亮部分代码。
 
@@ -48,11 +48,11 @@ let asyncRoutes = [
 
 **单侧边栏布局**其实就是去掉了主导航，当只有一个主导航，或者其它主导航下面都没有次导航的时候，布局就自动切换为**单侧边栏布局**，展示效果如下：
 
-![](/basic-layout-without-main-sidebar.png)
+![](/fantastic-admin/basic-layout-without-main-sidebar.png)
 
 **头部导航布局**只需在 `./src/setting.js` 设置 `showHeader: true` 即可，展示效果如下：
 
-![](/basic-layout-header.png)
+![](/fantastic-admin/basic-layout-header.png)
 
 :::tip 注意
 同时设置**单侧边栏布局**和**头部导航布局**，在头部区域也不会展示主导航内容。

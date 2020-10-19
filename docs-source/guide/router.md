@@ -79,13 +79,13 @@ export default {
 
 展示效果如下：
 
-![](/breadcrumb1.gif)
+![](/fantastic-admin/breadcrumb1.gif)
 
 ## 扩展
 
 客户总是有自己的想法，例如我司就遇到了这样的需求，在不改变侧边栏导航结构的前提下，面包屑导航希望能变成这样：
 
-![](/breadcrumb2.gif)
+![](/fantastic-admin/breadcrumb2.gif)
 
 其实根据图中的效果，可以确定路由需要有三层，剩下就是通过配置项去控制侧边栏导航和面包屑导航是否展示。
 

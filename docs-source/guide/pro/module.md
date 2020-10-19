@@ -105,7 +105,7 @@ onEdit(row) {
 }
 ```
 
-![](/module1.gif)
+![](/fantastic-admin/module1.gif)
 
 这样，我们的一个测试模块就初步创建好了。
 
@@ -152,7 +152,7 @@ data() {
 }
 ```
 
-![](/module2.gif)
+![](/fantastic-admin/module2.gif)
 
 再往下就是页面缓存相关的代码了，记得修改高亮部分代码。
 
