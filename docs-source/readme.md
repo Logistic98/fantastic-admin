@@ -26,9 +26,9 @@ footer: Copyright © Fantastic-admin
 
 <h2 align="center">演示地址</h2>
 
-[基础版](https://hooray.gitee.io/fantastic-admin/basic)（免费，可商用）
+[基础版](https://hooray.gitee.io/fantastic-admin/basic)（免费，可商用，[下载地址](https://gitee.com/hooray/fantastic-admin)）
 
-[专业版](https://hooray.gitee.io/fantastic-admin/basic)（付费）
+[专业版](https://hooray.gitee.io/fantastic-admin/basic)（付费，购买方式请查看演示地址首页说明）
 
 <h2 align="center">预览图</h2>
 

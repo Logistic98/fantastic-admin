@@ -1,7 +1,7 @@
 module.exports = {
 	title: 'Fantastic-admin 官网',
 	description: '一款开箱即用的 Vue 中后台管理系统框架',
-	base: '/docs/',
+	base: '/fantastic-admin/',
 	dest: 'docs',
 	plugins: ['@vuepress/medium-zoom'],
 	head: [
@@ -35,10 +35,6 @@ module.exports = {
 			},
 			{
 				text: '源码下载',
-				link: 'https://gitee.com/hooray/fantastic-admin'
-			},
-			{
-				text: '付费购买',
 				link: 'https://gitee.com/hooray/fantastic-admin'
 			}
 		],
