@@ -84,7 +84,20 @@ module.exports = {
 					title: '基础组件',
 					collapsable: false,
 					children: [
-						'page-main'
+						'page-header',
+						'page-main',
+						'result',
+						'fixed-action-bar',
+						'search-bar',
+						'batch-action-bar',
+						'image-upload',
+						'images-upload',
+						'file-upload',
+						'image-preview',
+						'svg-icon',
+						'trend',
+						'relative-time',
+						'cascader-area'
 					]
 				}
 			]
