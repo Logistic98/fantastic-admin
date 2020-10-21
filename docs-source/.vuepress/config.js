@@ -97,7 +97,6 @@ module.exports = {
 						'image-preview',
 						'svg-icon',
 						'trend',
-						'relative-time',
 						'cascader-area'
 					]
 				}
