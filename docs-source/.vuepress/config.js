@@ -62,6 +62,7 @@ module.exports = {
 						'router',
 						'permission',
 						'keep-alive',
+						'library',
 						'cdn',
 						'coding-standard',
 					]
