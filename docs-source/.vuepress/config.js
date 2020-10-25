@@ -41,6 +41,10 @@ module.exports = {
 				]
 			},
 			{
+				text: '视频教程',
+				link: 'https://space.bilibili.com/3079082/channel/detail?cid=156985'
+			},
+			{
 				text: '源码下载',
 				link: 'https://gitee.com/hooray/fantastic-admin'
 			}

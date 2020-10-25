@@ -30,6 +30,12 @@ footer: Copyright © Fantastic-admin
 
 [专业版](https://hooray.gitee.io/fantastic-admin/basic)（付费，购买方式请查看演示地址首页说明）
 
+<h2 align="center">技术支持</h2>
+
+[视频教程](https://space.bilibili.com/3079082/channel/detail?cid=156985)
+
+技术交流QQ群：1001394973
+
 <h2 align="center">预览图</h2>
 
 ![](/fantastic-admin/preview1.png)
