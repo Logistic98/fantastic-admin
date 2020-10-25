@@ -161,8 +161,6 @@ export default {
 }
 ```
 
-> 这个需求其实在学习 vue-element-admin 就想到过，也给作者提过 issue ([#1426](https://github.com/PanJiaChen/vue-element-admin/issues/1426))，不过作者并没给我更好的解决方案
-
 ## 嵌套路由
 
 上面的扩展例子里，引用了一个 `KeepAliveLayout` 组件，查看代码可以看到这是一个空白的 layout 页面。
