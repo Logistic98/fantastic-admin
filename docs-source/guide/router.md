@@ -91,7 +91,7 @@ export default {
 
 ```js
 import Layout from '@/layout'
-import KeepAliveLayout from '@/layout/keepAlive'
+import EmptyLayout from '@/layout/keepAlive'
 
 export default {
     path: '/banner',
@@ -115,7 +115,7 @@ export default {
         {
             path: 'list',
             name: 'bannerList',
-            component: KeepAliveLayout,
+            component: EmptyLayout,
             redirect: '/banner/list',
             meta: {
                 title: 'Banner 列表',
@@ -163,18 +163,12 @@ export default {
 
 ## 嵌套路由
 
-上面的扩展例子里，引用了一个 `KeepAliveLayout` 组件，查看代码可以看到这是一个空白的 layout 页面。
+上面的扩展例子里，引用了一个 `EmptyLayout` 组件，查看代码可以看到这是一个空白的 layout 页面。
 
 ```html
 <template>
-    <div>
-        <transition name="main" mode="out-in">
-            <keep-alive :include="$store.state.keepAlive.list">
-                <RouterView />
-            </keep-alive>
-        </transition>
-    </div>
+    <RouterView />
 </template>
 ```
 
-为什么需要这个呢？因为嵌套路由生成出来的导航栏目也是嵌套结构的，但导航栏目里的模块页面一般是不需要嵌套的，所以除了顶级路由需要设置 `component: Layout` ，嵌套有 `children` 属性的子项路由，均可设置 `component: KeepAliveLayout` 。当然如果你的页面确实有嵌套展示的需求，可不按照这种方式操作。
+为什么需要这个呢？因为嵌套路由生成出来的导航栏目也是嵌套结构的，但导航栏目里的模块页面一般是不需要嵌套的，所以除了顶级路由需要设置 `component: Layout` ，嵌套有 `children` 属性的子项路由，均可设置 `component: EmptyLayout` 。当然如果你的页面确实有嵌套展示的需求，可不按照这种方式操作。
