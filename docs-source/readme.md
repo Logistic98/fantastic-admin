@@ -38,7 +38,13 @@ footer: Copyright © Fantastic-admin
 
 <h2 align="center">预览图</h2>
 
-![](/fantastic-admin/preview1.png)
-![](/fantastic-admin/preview2.png)
-![](/fantastic-admin/preview3.png)
-![](/fantastic-admin/preview4.png)
+<table>
+	<tr>
+		<td><img src="/fantastic-admin/preview1.png" /></td>
+		<td><img src="/fantastic-admin/preview2.png" /></td>
+	</tr>
+	<tr>
+		<td><img src="/fantastic-admin/preview3.png" /></td>
+		<td><img src="/fantastic-admin/preview4.png" /></td>
+	</tr>
+</table>
