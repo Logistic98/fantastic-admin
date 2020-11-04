@@ -14,6 +14,9 @@ meta: {
     // 该路由在侧边栏导航和面包屑导航中展示的标题
     title: '新闻列表',
     // 侧边栏导航中显示的图标，图标使用 <svg-icon /> 组件展示
+    // 专业版支持使用 ElementUI Icon 和 RemixIcon ，如下：
+    // icon: 'el-icon-star-on'
+    // icon: 'ri-star-fill'
     icon: 'news',
     // 该路由进入的权限，支持多个权限叠加，只要满足一个，即可进入
     // 如果用户没有该权限，则该路由不会在侧边栏导航中展示
