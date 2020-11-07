@@ -58,7 +58,8 @@ module.exports = {
 					children: [
 						'start',
 						'configure',
-						'layout-and-theme',
+						'layout',
+						'theme',
 						'global-resources',
 						'axios',
 						'component',
@@ -75,7 +76,8 @@ module.exports = {
 					title: '专业版',
 					collapsable: false,
 					children: [
-						'pro/layout-and-theme',
+						'pro/layout',
+						'pro/theme',
 						'pro/router',
 						'pro/plop',
 						'pro/module',
