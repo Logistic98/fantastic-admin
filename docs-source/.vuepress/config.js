@@ -66,6 +66,7 @@ module.exports = {
 						'vuex',
 						'router',
 						'permission',
+						'tabbar',
 						'keep-alive',
 						'library',
 						'cdn',
