@@ -71,6 +71,7 @@ module.exports = {
 						'cdn',
 						'coding-standard',
 						'git',
+						'bug',
 						'plop',
 						'module',
 						'position-fixed'
