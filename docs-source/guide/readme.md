@@ -4,15 +4,21 @@ lang: zh-CN
 
 # 文档说明
 
+相信你已经准备或正在使用 Fantastic-admin 进行开发工作了，在此之前，希望你可以去 **Github** 或者 **Gitee(码云)** 帮我个点亮一个小 ❤️ ，这将对我是极大的鼓励。
+
+[![star](https://img.shields.io/github/stars/hooray/fantastic-admin?style=social)](https://github.com/hooray/fantastic-admin/stargazers)
+
+[![star](https://gitee.com/hooray/fantastic-admin/badge/star.svg?theme=dark)](https://gitee.com/hooray/fantastic-admin/stargazers)
+
+---
+
 阅读开发文档前，请确保你手上已经有 Fantastic-admin 源码，因为文档中提及的内容，都是需要你在本地项目中编写或修改代码并运行才能呈现的。
 
 ::: tip 如果你还没有源码，可以通过下面两种方式获取
 - 基础版（免费，可商用，[下载地址](https://gitee.com/hooray/fantastic-admin)）
-- 专业版（付费，购买方式请查看演示地址首页说明）
+- 专业版（付费，购买方式请联系 QQ：304327508）
 :::
 
-为方便所有开发者阅读，文档主要分为两块，其中**指南**部分为通用文档，即不管你用什么版本，这部分文档里的内容两者通用。而**专业版**部分显而易见就是提供给专业版的购买用户。
-
-当然你可能会看到某些功能说明在**指南**和**专业版**里都出现了，这并不是重复了，而是专业版在基础版的基础上做了功能特性的扩充，而这部分的内容基础版用户无需了解，所以你可能会看到两篇标题一样的文档，但内容其实是不同的。
+文档里会标注出专业版单独提供的特性，基础版用户在阅读文档的时候请特别注意。
 
 好，下面话不多说，我们开始吧~

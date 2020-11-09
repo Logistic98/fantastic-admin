@@ -70,25 +70,17 @@ module.exports = {
 						'library',
 						'cdn',
 						'coding-standard',
-					]
-				},
-				{
-					title: '专业版',
-					collapsable: false,
-					children: [
-						'pro/layout',
-						'pro/theme',
-						'pro/router',
-						'pro/plop',
-						'pro/module',
-						'pro/position-fixed'
+						'git',
+						'plop',
+						'module',
+						'position-fixed'
 					]
 				}
 			],
 			'/components/': [
 				'',
 				{
-					title: '基础组件',
+					title: '组件',
 					collapsable: false,
 					children: [
 						'page-header',
