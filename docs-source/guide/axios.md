@@ -59,14 +59,13 @@ this.$api2.get('/new/list')
 
 生产环境的跨域需要服务端去解决，开发环境的跨域问题可在本地设置代理解决。
 
-打开 `vue.config.js` 并找到以下代码：
+打开 `vue.config.js` 并将高亮部分代码注释去掉：
 
-```js
+```js {5-10}
 module.exports = {
     ...
     devServer: {
         open: true,
-        // 开发环境默认开启反向代理，如果不需要请自行注释
         proxy: {
             '/': {
                 target: process.env.VUE_APP_API_ROOT,
@@ -77,6 +76,8 @@ module.exports = {
     ...
 }
 ```
+
+同时将 `./src/api/index.js` 文件里的 `baseURL` 配置删掉，这时候重新运行框架，请求代理就会生效了。
 
 假设 `VUE_APP_API_ROOT` 配置的是 `http://baidu.com` ，那上述配置的结果就是，在请求 `/api/login` 时会转发到 `http://baidu.com/api/login` 。
 
