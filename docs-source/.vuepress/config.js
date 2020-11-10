@@ -45,8 +45,12 @@ module.exports = {
 				link: 'https://space.bilibili.com/3079082/channel/detail?cid=156985'
 			},
 			{
-				text: '源码下载',
+				text: 'Gitee',
 				link: 'https://gitee.com/hooray/fantastic-admin'
+			},
+			{
+				text: 'Github',
+				link: 'https://github.com/hooray/fantastic-admin'
 			}
 		],
 		sidebar: {
