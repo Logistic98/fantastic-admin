@@ -72,6 +72,7 @@ module.exports = {
 						'permission',
 						'tabbar',
 						'keep-alive',
+						'i18n',
 						'library',
 						'cdn',
 						'coding-standard',
