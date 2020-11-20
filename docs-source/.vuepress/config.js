@@ -16,8 +16,10 @@ module.exports = {
 		})();`]
 	],
 	themeConfig: {
+		logo: '/logo.png',
 		search: false,
 		displayAllHeaders: false,
+		smoothScroll: true,
 		nav: [
 			{
 				text: '指南',
@@ -75,6 +77,7 @@ module.exports = {
 						'i18n',
 						'library',
 						'cdn',
+						'mock',
 						'coding-standard',
 						'git',
 						'bug',
