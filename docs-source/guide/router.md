@@ -110,7 +110,7 @@ export default {
 
 ```js
 import Layout from '@/layout'
-import EmptyLayout from '@/layout/keepAlive'
+import EmptyLayout from '@/layout/empty'
 
 export default {
     path: '/banner',
