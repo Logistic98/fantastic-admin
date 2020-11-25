@@ -83,7 +83,8 @@ module.exports = {
 						'bug',
 						'plop',
 						'module',
-						'position-fixed'
+						'position-fixed',
+						'upgrade'
 					]
 				}
 			],
