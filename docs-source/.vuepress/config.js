@@ -77,6 +77,7 @@ module.exports = {
 						'i18n',
 						'library',
 						'cdn',
+						'gzip',
 						'mock',
 						'coding-standard',
 						'git',
