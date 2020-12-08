@@ -75,6 +75,7 @@ module.exports = {
 						'tabbar',
 						'keep-alive',
 						'i18n',
+						'storage',
 						'library',
 						'cdn',
 						'gzip',
