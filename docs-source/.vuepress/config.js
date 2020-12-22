@@ -74,6 +74,7 @@ module.exports = {
 						'permission',
 						'tabbar',
 						'keep-alive',
+						'keep-alive-neste',
 						'i18n',
 						'storage',
 						'library',
