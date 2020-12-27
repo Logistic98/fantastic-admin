@@ -98,7 +98,7 @@ mock 数据一般仅存在于开发环境，打包的时候注意将 `./src/main
 
 ### 使用说明
 
-首先将 `./src/api/index.js` 的 `baseURL` 注释掉或设为空
+首先将 `./src/main.js` 里的 `import './mock'` 注释掉，然后到 `./src/api/index.js` 里，把 `baseURL` 注释掉或设为空
 
 ```js {2}
 const api = axios.create({
@@ -109,9 +109,9 @@ const api = axios.create({
 })
 ```
 
-然后打开 `vue.config.js` 修改并设置成高亮部分代码
+最后打开 `vue.config.js` 修改并设置成高亮部分代码
 
-```js {5-14,22-25}
+```js {5-14,22-26}
 module.exports = {
     ...
     devServer: {
@@ -135,7 +135,8 @@ module.exports = {
         },
         mock: {
             entry: './src/mock/server.js',
-            debug: true
+            debug: true,
+            disable: false
         }
     },
 	...
