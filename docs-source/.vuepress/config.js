@@ -81,6 +81,7 @@ module.exports = {
 						'cdn',
 						'gzip',
 						'mock',
+						'build',
 						'coding-standard',
 						'git',
 						'bug',

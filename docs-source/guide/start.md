@@ -4,16 +4,29 @@ lang: zh-CN
 
 # 开始
 
-本框架需要你本地安装 [Node.js](https://nodejs.org/zh-cn/) ，同时我们强烈建议你安装并使用 [Yarn](https://classic.yarnpkg.com/zh-Hans/) 做为包管理工具。
+本框架需要你本地安装 [Node.js](https://nodejs.org/zh-cn/) 和 [Git](https://git-scm.com/) ，同时我们强烈建议你安装并使用 [Yarn](https://classic.yarnpkg.com/zh-Hans/) 做为包管理工具。
 
 做好准备工作后，依次执行下面的命令：
 
 ```bash
-# 进入项目根目录
+# 克隆项目，可选择从 github 或 gitee 克隆项目，专业版用户可跳过这步
+git clone https://github.com/hooray/fantastic-admin.git
+# 或者
+git clone https://gitee.com/hooray/fantastic-admin.git
+
+# 进入项目目录
 cd fantastic-admin
+# 专业版
+cd fantastic-admin-pro
+
 # 安装项目依赖
+npm install
+# 或者
 yarn
+
 # 运行项目
+npm run serve
+# 或者
 yarn run serve
 ```
 

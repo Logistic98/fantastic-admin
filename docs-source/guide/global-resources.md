@@ -14,6 +14,15 @@ lang: zh-CN
 <svg-icon name="example" />
 ```
 
+:::tip 更多
+专业版支持调用 [Element Icon](https://element.eleme.cn/#/zh-CN/component/icon) 和 [RemixIcon](https://remixicon.com/) ，例如：
+
+```html
+<svg-icon name="el-icon-edit" />
+<svg-icon name="ri-home-line" />
+```
+:::
+
 ## 图片
 
 框架用到的图片资源都放在 `./src/assets/images/` 目录下，可自行新建文件夹方便进行管理。
