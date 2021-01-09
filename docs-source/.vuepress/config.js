@@ -47,6 +47,10 @@ module.exports = {
 				link: 'https://space.bilibili.com/3079082/channel/detail?cid=156985'
 			},
 			{
+				text: '购买专业版',
+				link: '/buy'
+			},
+			{
 				text: 'Gitee',
 				link: 'https://gitee.com/hooray/fantastic-admin'
 			},
