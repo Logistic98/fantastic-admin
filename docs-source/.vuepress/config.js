@@ -98,8 +98,9 @@ module.exports = {
 			],
 			'/components/': [
 				'',
+				'basic',
 				{
-					title: '组件',
+					title: '扩展组件',
 					collapsable: false,
 					children: [
 						'page-header',
