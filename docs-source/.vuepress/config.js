@@ -52,11 +52,11 @@ module.exports = {
 			},
 			{
 				text: 'Gitee',
-				link: 'https://gitee.com/hooray/Fantastic-admin'
+				link: 'https://gitee.com/hooray/fantastic-admin'
 			},
 			{
 				text: 'Github',
-				link: 'https://github.com/hooray/Fantastic-admin'
+				link: 'https://github.com/hooray/fantastic-admin'
 			}
 		],
 		sidebar: {
