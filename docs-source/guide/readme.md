@@ -7,8 +7,8 @@ lang: zh-CN
 ::: warning ⭐⭐⭐⭐⭐
 相信你已经准备或正在使用 Fantastic-admin 进行开发工作了，在此之前，希望你可以去 **Github** 或者 **Gitee(码云)** 帮我个点个 ⭐ ，这将对我是极大的鼓励。
 
-[![star](https://img.shields.io/github/stars/hooray/fantastic-admin?style=social)](https://github.com/hooray/fantastic-admin/stargazers)
-[![star](https://gitee.com/hooray/fantastic-admin/badge/star.svg?theme=dark)](https://gitee.com/hooray/fantastic-admin/stargazers)
+[![star](https://img.shields.io/github/stars/hooray/Fantastic-admin?style=social)](https://github.com/hooray/Fantastic-admin/stargazers)
+[![star](https://gitee.com/hooray/Fantastic-admin/badge/star.svg?theme=dark)](https://gitee.com/hooray/Fantastic-admin/stargazers)
 :::
 
 阅读开发文档前，请确保你手上已经有 Fantastic-admin 源码，因为文档中提及的内容，都是需要你在本地项目中编写或修改代码并运行才能呈现的。
@@ -19,8 +19,8 @@ lang: zh-CN
 
 ::: tip 源码获取
 - 基础版（免费，可商用，[在线演示](https://hooray.gitee.io/fantastic-admin/basic)）
-  - 去 [Gitee](https://gitee.com/hooray/fantastic-admin) 下载
-  - 去 [Github](https://github.com/hooray/fantastic-admin) 下载
+  - 去 [Gitee](https://gitee.com/hooray/Fantastic-admin) 下载
+  - 去 [Github](https://github.com/hooray/Fantastic-admin) 下载
 - 专业版（付费，可商用，[在线演示](https://hooray.gitee.io/fantastic-admin/pro)）
   - [去购买](/buy.md)
 :::
