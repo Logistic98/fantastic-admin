@@ -89,35 +89,26 @@ this.$authAll(['department.create', 'department.edit'])
 
 ## 演示
 
-在 `src/store/modules/global.js` 文件里 action 下有个 `getPermissions` 的方法，在实际项目开发中，记得修改该方法。
+在 `src/store/modules/user.js` 文件里 action 下有个 `getPermissions` 的方法，在实际项目开发中，记得修改该方法。
 
 ```js
 // 获取我的权限
-getPermissions({rootState, commit}) {
+getPermissions({state, commit}) {
     return new Promise(resolve => {
-        // 模拟权限数据
-        let permissions
-        if (rootState.token.account == 'admin') {
-            permissions = [
-                'permission.browse',
-                'permission.create',
-                'permission.edit',
-                'permission.remove'
-            ]
-        } else if (rootState.token.account == 'test') {
-            permissions = [
-                'permission.browse'
-            ]
-        } else {
-            permissions = []
-        }
-        commit('setPermissions', permissions)
-        resolve(permissions)
+        // 通过 mock 获取权限
+        api.get('mock/member/permission', {
+            params: {
+                account: state.account
+            }
+        }).then(res => {
+            commit('setPermissions', res.data.permissions)
+            resolve(res.data.permissions)
+        })
     })
 }
 ```
 
-在框架演示中，提供了两组权限，你可以在“权限”栏目里切换帐号查看不同权限下的效果。如果使用其它用户名登录，则看不到“权限”模块。
+在框架演示中，提供了两组权限，你可以在“权限验证”栏目里切换帐号查看不同权限下的效果。如果使用其它用户名登录，则看不到“权限验证”模块。
 
 ## 小技巧
 
