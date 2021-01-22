@@ -79,6 +79,7 @@ module.exports = {
 						'tabbar',
 						'keep-alive',
 						'keep-alive-neste',
+						'font',
 						'i18n',
 						'storage',
 						'library',
