@@ -5,7 +5,7 @@ lang: zh-CN
 # 文档说明
 
 ::: warning ⭐⭐⭐⭐⭐
-相信你已经准备或正在使用 Fantastic-admin 进行开发工作了，在此之前，希望你可以去 **Github** 或者 **Gitee(码云)** 帮我个点个 ⭐ ，这将对我是极大的鼓励。
+相信你已经准备或正在使用 Fantastic-admin 进行开发工作了，在此之前，希望你可以去 **Github** 或者 **Gitee(码云)** 帮我点个 ⭐ ，这将是对我极大的鼓励。
 
 [![star](https://img.shields.io/github/stars/hooray/fantastic-admin?style=social)](https://github.com/hooray/fantastic-admin/stargazers)
 [![star](https://gitee.com/hooray/fantastic-admin/badge/star.svg?theme=dark)](https://gitee.com/hooray/fantastic-admin/stargazers)
