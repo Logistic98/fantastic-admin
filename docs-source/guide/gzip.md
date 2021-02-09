@@ -11,3 +11,7 @@ lang: zh-CN
 ```
 VUE_APP_GZIP = ON
 ```
+
+开启后再进行项目打包时，会同时生成 `.gz` 文件。
+
+最后记得开启服务端对 gzip 的支持，以 nginx 为例，需要在配置里加上 `gzip_static on;` 这行配置，如果 nginx 中的 http_gzip_static_module 模块不存在，则还需要进行添加，可参考《[yum安装下的nginx，如何添加模块，和添加第三方模块](https://www.cnblogs.com/caicaizi/p/10241700.html)》
