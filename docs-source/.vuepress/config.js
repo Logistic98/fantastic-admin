@@ -119,6 +119,7 @@ module.exports = {
 						'svg-icon',
 						'trend',
 						'cascader-area',
+						'colorful-card',
 						'icon-picker'
 					]
 				}
