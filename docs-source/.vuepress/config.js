@@ -104,6 +104,8 @@ module.exports = {
 					title: '扩展组件',
 					collapsable: false,
 					children: [
+						'auth',
+						'auth-all',
 						'page-header',
 						'page-main',
 						'result',
@@ -116,7 +118,8 @@ module.exports = {
 						'image-preview',
 						'svg-icon',
 						'trend',
-						'cascader-area'
+						'cascader-area',
+						'icon-picker'
 					]
 				}
 			]
