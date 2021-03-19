@@ -67,6 +67,7 @@ module.exports = {
 					collapsable: false,
 					children: [
 						'start',
+						'coding-standard',
 						'configure',
 						'layout',
 						'theme',
@@ -87,7 +88,6 @@ module.exports = {
 						'gzip',
 						'mock',
 						'build',
-						'coding-standard',
 						'git',
 						'bug',
 						'plop',
