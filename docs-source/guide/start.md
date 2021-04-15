@@ -20,15 +20,15 @@ cd fantastic-admin
 # 专业版
 cd fantastic-admin-pro
 
-# 安装项目依赖
-npm install
-# 或者
+# 安装项目依赖（框架使用 yarn 进行依赖包的版本锁定，建议使用 yarn 进行安装）
 yarn
+# 或者
+npm install
 
 # 运行项目
-npm run serve
-# 或者
 yarn run serve
+# 或者
+npm run serve
 ```
 
 运行成功后，会自动访问页面，默认情况下，地址为 `http://localhost:8080`
