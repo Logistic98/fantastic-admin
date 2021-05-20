@@ -8,7 +8,7 @@ lang: zh-CN
 
 框架的核心是通过路由自动生成对应导航，所以除了路由的基本配置，还需要了解框架提供了哪些配置项，其中**高亮部分为专业版扩充配置项**，基础版不具备该特性：
 
-```js {5-6,22-35}
+```js {5-6,12-16,27-40}
 // 所有的导航配置项均放在路由的 meta 对象中
 meta: {
     // 该路由在侧边栏导航和面包屑导航中展示的标题
@@ -20,6 +20,11 @@ meta: {
     // icon: 'el-icon-star-on'
     // icon: 'ri-star-fill'
     icon: 'news',
+	// 侧边栏导航中激活时显示的图标，图标使用 <svg-icon /> 组件展示
+    // 支持使用 ElementUI Icon 和 RemixIcon ，如下：
+    // activeIcon: 'el-icon-star-on'
+    // activeIcon: 'ri-star-fill'
+	activeIcon: '',
     // 该路由进入的权限，支持多个权限叠加，只要满足一个，即可进入
     // 如果用户没有该权限，则该路由不会在侧边栏导航中展示
     auth: ['news.browse', 'news.edit'],
