@@ -18,10 +18,10 @@ lang: zh-CN
 如果还没有源码，可以通过下面两种方式获取：
 
 ::: tip 源码获取
-- 基础版（免费，可商用，[在线演示](https://hooray.gitee.io/fantastic-admin/basic)）
+- 基础版（免费，可商用，[在线演示](https://hooray.github.io/fantastic-admin/basic)）
   - 去 [Gitee](https://gitee.com/hooray/fantastic-admin) 下载
   - 去 [Github](https://github.com/hooray/fantastic-admin) 下载
-- 专业版（付费，可商用，[在线演示](https://hooray.gitee.io/fantastic-admin/pro)）
+- 专业版（付费，可商用，[在线演示](https://hooray.github.io/fantastic-admin/pro)）
   - [去购买](/buy.md)
 :::
 

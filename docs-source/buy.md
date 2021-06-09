@@ -73,10 +73,10 @@ lang: zh-CN
 	</tr>
 	<tr>
 		<td align="center">
-			<a href="https://hooray.gitee.io/fantastic-admin/basic" target="_blank">查看演示</a>
+			<a href="https://hooray.github.io/fantastic-admin/basic" target="_blank">查看演示</a>
 		</td>
 		<td align="center">
-			<a href="https://hooray.gitee.io/fantastic-admin/pro" target="_blank">查看演示</a>
+			<a href="https://hooray.github.io/fantastic-admin/pro" target="_blank">查看演示</a>
 		</td>
 	</tr>
 </table>

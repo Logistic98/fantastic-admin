@@ -34,11 +34,11 @@ module.exports = {
 				items: [
 					{
 						text: '基础版',
-						link: 'https://hooray.gitee.io/fantastic-admin/basic'
+						link: 'https://hooray.github.io/fantastic-admin/basic'
 					},
 					{
 						text: '专业版',
-						link: 'https://hooray.gitee.io/fantastic-admin/pro'
+						link: 'https://hooray.github.io/fantastic-admin/pro'
 					}
 				]
 			},
