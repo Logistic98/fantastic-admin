@@ -31,8 +31,14 @@ footer: Copyright © Fantastic-admin
 <h2 align="center">演示地址</h2>
 
 <div align="center" style="margin: 30px auto 50px;font-size: 18px;">
-	<a href="https://hooray.github.io/fantastic-admin/basic" target="_blank" style="margin: 0 20px;">基础版</a>
-	<a href="https://hooray.github.io/fantastic-admin/pro" target="_blank" style="margin: 0 20px;">专业版</a>
+	<span style="margin: 0 20px;">
+		<a href="https://hooray.gitee.io/fantastic-admin/basic" target="_blank">基础版</a>
+		(<a href="https://hooray.github.io/fantastic-admin/basic" target="_blank">备份</a>)
+	</span>
+	<span style="margin: 0 20px;">
+		<a href="https://hooray.gitee.io/fantastic-admin/pro" target="_blank">专业版</a>
+		(<a href="https://hooray.github.io/fantastic-admin/pro" target="_blank">备份</a>)
+	</span>
 </div>
 
 <h2 align="center">下载 / 购买</h2>

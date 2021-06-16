@@ -9,10 +9,18 @@ module.exports = {
 		['keywords', { content: 'fantastic-admin,后台系统,管理后台,后台模版,vue后台,vue-admin,vue-element-admin,vue-admin-template' }],
 		['script', {}, `var _hmt = _hmt || [];
 		(function() {
-			var hm = document.createElement("script");
-			hm.src = "https://hm.baidu.com/hm.js?d07a64f7a02cd5e9c01e1b36948ac4a5";
-			var s = document.getElementsByTagName("script")[0];
-			s.parentNode.insertBefore(hm, s);
+			if (location.origin.includes('gitee')) {
+				var hm = document.createElement("script");
+				hm.src = "https://hm.baidu.com/hm.js?ba0ee7b31f404b7dc10bfcd8bdc7183d";
+				var s = document.getElementsByTagName("script")[0];
+				s.parentNode.insertBefore(hm, s);
+			}
+			if (location.origin.includes('github')) {
+				var hm = document.createElement("script");
+				hm.src = "https://hm.baidu.com/hm.js?d07a64f7a02cd5e9c01e1b36948ac4a5";
+				var s = document.getElementsByTagName("script")[0];
+				s.parentNode.insertBefore(hm, s);
+			}
 		})();`]
 	],
 	themeConfig: {
@@ -34,10 +42,18 @@ module.exports = {
 				items: [
 					{
 						text: '基础版',
-						link: 'https://hooray.github.io/fantastic-admin/basic'
+						link: 'https://hooray.gitee.io/fantastic-admin/basic'
 					},
 					{
 						text: '专业版',
+						link: 'https://hooray.gitee.io/fantastic-admin/pro'
+					},
+					{
+						text: '基础版(备份)',
+						link: 'https://hooray.github.io/fantastic-admin/basic'
+					},
+					{
+						text: '专业版(备份)',
 						link: 'https://hooray.github.io/fantastic-admin/pro'
 					}
 				]
